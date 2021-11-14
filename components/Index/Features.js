@@ -7,7 +7,7 @@ const Features = () => {
       <div className="section-features__box">
         <div className="section-features__box--left">
           <Image
-            src="/static/media/phone-1.avif"
+            src="/static/media/phone-1.webp"
             alt="acoustic economy showcase"
             id="image1"
             width={383}
@@ -84,7 +84,7 @@ const Features = () => {
         </div>
         <div className="section-features__box--left section-features__box--left">
           <Image
-            src="/static/media/phone-2.avif"
+            src="/static/media/phone-2.webp"
             id="image2"
             alt="Acoustic avatar showcase"
             width={383}
@@ -95,7 +95,7 @@ const Features = () => {
       <div className="section-features__box">
         <div className="section-features__box--left">
           <Image
-            src="/static/media/phone-3.avif"
+            src="/static/media/phone-3.webp"
             id="image3"
             alt="Acoustic music showcase"
             width={383}

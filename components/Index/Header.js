@@ -69,7 +69,7 @@ const Header = () => {
         <div className="home-header__hero--right">
           <Image
             className="home-header__img"
-            src="/static/media/welcome.avif"
+            src="/static/media/welcome.webp"
             alt="acoustic phone mockup"
             width={706}
             height={868}
