@@ -1242,7 +1242,7 @@ body {
 .section-why {
   grid-column: 2/14;
   padding: 6rem;
-  margin-top: 15rem;
+  margin-top: 10rem;
 }
 @media only screen and (max-width: 30em) {
   .section-why {
@@ -1267,6 +1267,13 @@ body {
 }
 @media only screen and (max-width: 45.5em) {
   .section-why__container {
+    margin-top: -24rem;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+  }
+}
+@media only screen and (max-width: 25.5em) {
+  .section-why__container {
+    margin-top: -64rem;
     grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
   }
 }
