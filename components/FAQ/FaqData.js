@@ -57,7 +57,7 @@ export const faqData = [
       'Yes, all you need to do is making Acoustic a Stage Moderator. All commands work exactly the same when you use Acoustic in a normal voice channel.'
   },
   {
-    question: "What is Acoustic's Discord Server used for",
+    question: "What is Acoustic's Discord Server used for?",
     answer:
       "Acoustic's Discord Server is a place built for everything related to Acoustic!\n1️⃣ Get help and support from our lovely Staff Members!\n2️⃣ You will be informed about Acoustic's new features and updates.\n3️⃣ Stay up-to-date with news and announcements.\n4️⃣ Make new feature suggestions for Acoustic.\n5️⃣ Hang out with our amazing growing community members and staff!\n6️⃣ Join and enjoy our events that take place."
   }

@@ -36,7 +36,7 @@ const Header = () => {
             </span>
           </h1>
           <h5 className="home-header__h5">
-            Acoustic is a fast &amp; immersive music experience
+            Acoustic is a fast &amp; immersive music experience&nbsp;
             <br />
             built for Discord{' '}
           </h5>
