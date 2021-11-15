@@ -1,6 +1,6 @@
 module.exports = {
   siteUrl: 'https://acoustic.to',
   generateRobotsTxt: true,
-  sourceDir: 'build', 
+  sourceDir: 'build',
   priority: 0.7
 }
