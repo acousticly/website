@@ -33,12 +33,12 @@ module.exports = {
       },
       {
         source: '/youtube',
-        destination: 'https://www.youtube.com/channel/UCukKSll51JBQ1t1V9MVRHeA',
+        destination: 'https://youtube.com/channel/UCukKSll51JBQ1t1V9MVRHeA',
         permanent: true
       },
       {
         source: '/patreon',
-        destination: 'https://www.patreon.com/acousticly',
+        destination: 'https://patreon.com/acousticly',
         permanent: true
       }
     ]
