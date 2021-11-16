@@ -28,15 +28,6 @@ function App({ Component, pageProps }) {
           property="og:description"
           content="Acoustic is the fastest, most feature rich bot ever."
         />
-        <meta itemprop="name" content="Acoustic" />
-        <meta
-          itemprop="description"
-          content="Acoustic is the fastest, most feature rich bot ever."
-        />
-        <meta
-          itemprop="image"
-          content="https://acoustic.to//static/media/meta.webp"
-        />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Acoustic" />
         <meta
@@ -69,3 +60,6 @@ function App({ Component, pageProps }) {
 }
 
 export default App
+export function reportWebVitals(metric) {
+  console.log(metric)
+}
