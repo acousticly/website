@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <nav className="nav-container">
       <a>
-        <Link href="/" passHref>
+        <Link href="https://acoustic.to" passHref>
           <Image
             className="brand-logo"
             src="/static/media/meta.webp"
@@ -43,9 +43,15 @@ const Nav = () => {
         <div className="bar2" />
       </div>
       <div className="mobile-nav">
-        <a href="index#features">Features</a>
-        <a href="faq">FAQ</a>
-        <a href="about">About Us</a>
+        <Link href="index#features" passHref>
+          Features
+        </Link>
+        <Link href="faq" passHref>
+          FAQ
+        </Link>
+        <Link href="about" passHref>
+          About Us
+        </Link>
       </div>
     </nav>
   )
