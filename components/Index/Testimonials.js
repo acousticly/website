@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 const Testimonials = () => {
   return (
     <section id="testimonials" className="section-testimonials">
@@ -9,11 +9,38 @@ const Testimonials = () => {
           <div className="box__left">
             <div className="box">
               <div className="box__top">
-                <img src="static/svg/star.svg" alt="star icon" />
-                <img src="static/svg/star.svg" alt="star icon" />
-                <img src="static/svg/star.svg" alt="star icon" />
-                <img src="static/svg/star.svg" alt="star icon" />
-                <img src="static/svg/star.svg" alt="star icon" />
+                <div className="testimonials__image">
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                </div>
               </div>
               <div className="box__middle">
                 <h2 className="box__title">
@@ -26,11 +53,38 @@ const Testimonials = () => {
             </div>
             <div className="box">
               <div className="box__top">
-                <img src="static/svg/star.svg" alt="star icon" />
-                <img src="static/svg/star.svg" alt="star icon" />
-                <img src="static/svg/star.svg" alt="star icon" />
-                <img src="static/svg/star.svg" alt="star icon" />
-                <img src="static/svg/star.svg" alt="star icon" />
+                <div className="testimonials__image">
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                </div>
               </div>
               <div className="box__middle">
                 <h2 className="box__title">
@@ -45,11 +99,38 @@ const Testimonials = () => {
           <div className="box__right">
             <div className="box">
               <div className="box__top">
-                <img src="static/svg/star.svg" alt="star icon" />
-                <img src="static/svg/star.svg" alt="star icon" />
-                <img src="static/svg/star.svg" alt="star icon" />
-                <img src="static/svg/star.svg" alt="star icon" />
-                <img src="static/svg/star.svg" alt="star icon" />
+                <div className="testimonials__image">
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                </div>
               </div>
               <div className="box__middle">
                 <h2 className="box__title">
@@ -63,11 +144,38 @@ const Testimonials = () => {
             </div>
             <div className="box">
               <div className="box__top">
-                <img src="static/svg/star.svg" alt="star icon" />
-                <img src="static/svg/star.svg" alt="star icon" />
-                <img src="static/svg/star.svg" alt="star icon" />
-                <img src="static/svg/star.svg" alt="star icon" />
-                <img src="static/svg/star.svg" alt="star icon" />
+                <div className="testimonials__image">
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                </div>
               </div>
               <div className="box__middle">
                 <h2 className="box__title">“Good music bot overall.”</h2>
@@ -80,11 +188,38 @@ const Testimonials = () => {
           <div className="box__left box__left-">
             <div className="box">
               <div className="box__top">
-                <img src="static/svg/star.svg" alt="star icon" />
-                <img src="static/svg/star.svg" alt="star icon" />
-                <img src="static/svg/star.svg" alt="star icon" />
-                <img src="static/svg/star.svg" alt="star icon" />
-                <img src="static/svg/star.svg" alt="star icon" />
+                <div className="testimonials__image">
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                </div>
               </div>
               <div className="box__middle">
                 <h2 className="box__title">
@@ -97,11 +232,38 @@ const Testimonials = () => {
             </div>
             <div className="box">
               <div className="box__top">
-                <img src="static/svg/star.svg" alt="star icon" />
-                <img src="static/svg/star.svg" alt="star icon" />
-                <img src="static/svg/star.svg" alt="star icon" />
-                <img src="static/svg/star.svg" alt="star icon" />
-                <img src="static/svg/star.svg" alt="star icon" />
+                <div className="testimonials__image">
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                  <Image
+                    src="/static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                  />
+                </div>
               </div>
               <div className="box__middle">
                 <h2 className="box__title">
