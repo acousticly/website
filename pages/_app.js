@@ -35,9 +35,9 @@ function App({ Component, pageProps }) {
         {/* 
         <link rel="stylesheet" href="/static/css/style.css" data-n-g="" /> */}
       </Head>
-      <Script src="/static/js/gsap.min.js" strategy="lazyOnload" />
-      <Script src="/static/js/ScrollTrigger.js" strategy="lazyOnload" />
-      <Script src="/static/js/script.js" strategy="lazyOnload" />
+      <Script src="/static/js/gsap.min.js" strategy="beforeInteractive" />
+      <Script src="/static/js/ScrollTrigger.js" strategy="beforeInteractive" />
+      <Script src="/static/js/script.js" strategy="beforeInteractive" />
 
       <div className="container">
         <Nav />
