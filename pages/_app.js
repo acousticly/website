@@ -13,19 +13,39 @@ function App({ Component, pageProps }) {
           content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover"
         />
         <title>Acoustic</title>
-        <link rel="icon" href="/static/media/meta.webp" />
-        <meta name="theme-color" content="#13161D" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:url" content="https://acoustic.to" />
-        <meta property="og:image" content="/static/media/meta.webp" />
-        <meta
-          property="og:image:secure_url"
-          content="/static/media/meta.webp"
-        />
-        <meta name="title" content="Acoustic" />
         <meta
           name="description"
           content="Acoustic is the fastest, most feature rich bot ever."
+        />
+        <link rel="icon" href="/static/media/meta.webp" />
+        <meta name="theme-color" content="#13161D" />
+        <meta property="og:title" content="Acoustic" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:url" content="https://acoustic.to" />
+        <meta property="og:image" content="/static/media/meta.webp" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:description"
+          content="Acoustic is the fastest, most feature rich bot ever."
+        />
+        <meta itemprop="name" content="Acoustic" />
+        <meta
+          itemprop="description"
+          content="Acoustic is the fastest, most feature rich bot ever."
+        />
+        <meta
+          itemprop="image"
+          content="https://acoustic.to//static/media/meta.webp"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Acoustic" />
+        <meta
+          name="twitter:description"
+          content="Acoustic is the fastest, most feature rich bot ever."
+        />
+        <meta
+          name="twitter:image"
+          content="https://acoustic.to//static/media/meta.webp"
         />
         <meta
           name="Keywords"
