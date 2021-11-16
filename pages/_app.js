@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import Head from 'next/head'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
+import Script from 'next/script'
 
 function App({ Component, pageProps }) {
   return (
@@ -33,10 +34,10 @@ function App({ Component, pageProps }) {
         {/* <link rel="stylesheet" href="/static/css/style.css" as="style" /> */}
         {/* 
         <link rel="stylesheet" href="/static/css/style.css" data-n-g="" /> */}
-        <script defer src="/static/js/gsap.min.js"></script>
-        <script defer src="/static/js/ScrollTrigger.js"></script>
-        <script defer src="/static/js/script.js"></script>
       </Head>
+      <Script src="/static/js/gsap.min.js" strategy="lazyOnload" />
+      <Script src="/static/js/ScrollTrigger.js" strategy="lazyOnload" />
+      <Script src="/static/js/script.js" strategy="lazyOnload" />
 
       <div className="container">
         <Nav />
