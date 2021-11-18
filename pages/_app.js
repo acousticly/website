@@ -13,6 +13,11 @@ function App({ Component, pageProps }) {
           content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover"
         />
         <title>Acoustic</title>
+        <link rel="preconnect" href="https://discord.com" />
+        <link rel="preconnect" href="https://vitals.vercel-insights.com" />
+        <link rel="dns-prefetch" href="https://discord.com" />
+        <link rel="dns-prefetch" href="https://vitals.vercel-insights.com" />
+
         <meta
           name="description"
           content="Acoustic is the fastest, most feature rich bot ever."
