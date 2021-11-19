@@ -47,9 +47,6 @@ function App({ Component, pageProps }) {
           name="Keywords"
           content="discord, bot, discord bot, best discord, reddit, music, tunes, economy, github"
         />
-        {/* <link rel="stylesheet" href="/static/css/style.css" as="style" /> */}
-        {/* 
-        <link rel="stylesheet" href="/static/css/style.css" data-n-g="" /> */}
       </Head>
       <Script src="/static/js/gsap.min.js" strategy="beforeInteractive" />
       <Script src="/static/js/ScrollTrigger.js" strategy="beforeInteractive" />
