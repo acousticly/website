@@ -108,7 +108,7 @@ body {
 @font-face {
   font-family: GT Walsheim Pro Bold;
   src: local('GT Walsheim Pro Bold'), local('GT-Walsheim-Pro-Bold'),
-    url(/public/static/fonts/GTWalsheimPro-Bold.woff) format('woff');
+    url(/static/fonts/GTWalsheimPro-Bold.woff) format('woff');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -116,7 +116,7 @@ body {
 @font-face {
   font-family: GT Walsheim Pro Medium;
   src: local('GT Walsheim Pro Medium'), local('GT-Walsheim-Pro-Medium'),
-    url(/public/static/fonts/GTWalsheimPro-Medium.woff) format('woff');
+    url(/static/fonts/GTWalsheimPro-Medium.woff) format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -124,7 +124,7 @@ body {
 @font-face {
   font-family: GT Walsheim Pro Regular;
   src: local('GT Walsheim Pro Regular'), local('GT-Walsheim-Pro-Regular'),
-    url(/public/static/fonts/GTWalsheimPro-Regular.woff) format('woff');
+    url(/static/fonts/GTWalsheimPro-Regular.woff) format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -1445,7 +1445,7 @@ body {
   height: 100%;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(/public/static/media/testimonials.svg);
+  background-image: url(/static/media/testimonials.svg);
   background-blend-mode: pass-through;
   z-index: -1;
 }
