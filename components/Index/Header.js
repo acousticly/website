@@ -73,6 +73,7 @@ const Header = () => {
             alt="acoustic phone mockup"
             width={706}
             height={868}
+            priority={true}
           />
         </div>
       </div>
