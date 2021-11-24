@@ -2,6 +2,9 @@ import React, { useEffect } from 'react'
 import { IndexScript } from '../../script/Index'
 import Link from 'next/link'
 import Image from 'next/image'
+import invite from '/public/static/svg/invite.svg'
+import discord from '/public/static/svg/discord.svg'
+import welcome from '/public/static/media/welcome.webp'
 const Header = () => {
   useEffect(() => {
     setTimeout(() => {
@@ -45,7 +48,7 @@ const Header = () => {
               <Link href="/invite">
                 <a className="hero-main__icon">
                   <Image
-                    src="/static/svg/invite.svg"
+                    src={invite}
                     alt="Invite Acoustic"
                     width={55}
                     height={55}
@@ -55,7 +58,7 @@ const Header = () => {
               <Link href="/support">
                 <a className="hero-main__icon">
                   <Image
-                    src="/static/svg/discord.svg"
+                    src={discord}
                     alt="Join the community"
                     width={55}
                     height={55}
@@ -69,11 +72,11 @@ const Header = () => {
         <div className="home-header__hero--right">
           <Image
             className="home-header__img"
-            src="/static/media/welcome.webp"
+            src={welcome}
             alt="acoustic phone mockup"
             width={706}
             height={868}
-            priority={true}
+            loading="lazy"
           />
         </div>
       </div>

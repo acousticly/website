@@ -1,5 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
+import rocket from '/public/static/svg/rocket.svg'
+import customers from '/public/static/svg/customers.svg'
+import speed from '/public/static/svg/speed.svg'
 const Why = () => {
   return (
     <section className="section-why">
@@ -7,7 +10,7 @@ const Why = () => {
         <div className="section-why__box">
           <Image
             className="brand-logo"
-            src="/static/svg/rocket.svg"
+            src={rocket}
             alt="rocket icon"
             width={64}
             height={64}
@@ -21,7 +24,7 @@ const Why = () => {
         <div className="section-why__box">
           <Image
             className="brand-logo"
-            src="/static/svg/customers.svg"
+            src={customers}
             alt="customer icon"
             width={64}
             height={64}
@@ -35,7 +38,7 @@ const Why = () => {
         <div className="section-why__box">
           <Image
             className="brand-logo"
-            src="/static/svg/speed.svg"
+            src={speed}
             alt="speed icon"
             width={64}
             height={64}

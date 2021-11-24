@@ -1,17 +1,23 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import phone1 from '/public/static/media/phone-1.png'
+import phone2 from '/public/static/media/phone-2.png'
+import phone3 from '/public/static/media/phone-3.png'
+import discordFeat from '/public/static/svg/discordFeat.svg'
+import inviteFeat from '/public/static/svg/inviteFeat.svg'
 const Features = () => {
   return (
     <section id="features" className="section-features">
       <div className="section-features__box">
         <div className="section-features__box--left">
           <Image
-            src="/static/media/phone-1.webp"
+            src={phone1}
             alt="acoustic economy showcase"
             id="image1"
             width={383}
             height={724}
+            placeholder="blur"
           />
         </div>
         <div className="section-features__box--right">
@@ -26,7 +32,7 @@ const Features = () => {
             <Link href="/invite">
               <a className="hero-cta__icon">
                 <Image
-                  src="/static/svg/inviteFeat.svg"
+                  src={inviteFeat}
                   alt="Invite Acoustic"
                   width={35}
                   height={35}
@@ -36,7 +42,7 @@ const Features = () => {
             <Link href="/support">
               <a className="hero-cta__icon">
                 <Image
-                  src="/static/svg/discordFeat.svg"
+                  src={discordFeat}
                   alt="Invite Acoustic"
                   width={35}
                   height={35}
@@ -60,7 +66,7 @@ const Features = () => {
             <Link href="/invite">
               <a className="hero-cta__icon">
                 <Image
-                  src="/static/svg/inviteFeat.svg"
+                  src={inviteFeat}
                   alt="Invite Acoustic"
                   width={35}
                   height={35}
@@ -70,7 +76,7 @@ const Features = () => {
             <Link href="/support">
               <a className="hero-cta__icon">
                 <Image
-                  src="/static/svg/discordFeat.svg"
+                  src={discordFeat}
                   alt="Invite Acoustic"
                   width={35}
                   height={35}
@@ -84,22 +90,24 @@ const Features = () => {
         </div>
         <div className="section-features__box--left section-features__box--left">
           <Image
-            src="/static/media/phone-2.webp"
+            src={phone2}
             id="image2"
             alt="Acoustic avatar showcase"
             width={383}
             height={724}
+            placeholder="blur"
           />
         </div>
       </div>
       <div className="section-features__box">
         <div className="section-features__box--left">
           <Image
-            src="/static/media/phone-3.webp"
+            src={phone3}
             id="image3"
             alt="Acoustic music showcase"
             width={383}
             height={724}
+            placeholder="blur"
           />
         </div>
         <div className="section-features__box--right">
@@ -112,7 +120,7 @@ const Features = () => {
             <Link href="/invite">
               <a className="hero-cta__icon">
                 <Image
-                  src="/static/svg/inviteFeat.svg"
+                  src={inviteFeat}
                   alt="Invite Acoustic"
                   width={35}
                   height={35}
@@ -122,7 +130,7 @@ const Features = () => {
             <Link href="/support">
               <a className="hero-cta__icon">
                 <Image
-                  src="/static/svg/discordFeat.svg"
+                  src={discordFeat}
                   alt="Invite Acoustic"
                   width={35}
                   height={35}

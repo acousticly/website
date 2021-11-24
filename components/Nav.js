@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import meta from '/public/static/media/meta.webp'
 const Nav = () => {
   return (
     <nav className="nav-container">
@@ -8,7 +9,7 @@ const Nav = () => {
         <Link href="https://acoustic.to" passHref>
           <Image
             className="brand-logo"
-            src="/static/media/meta.webp"
+            src={meta}
             alt="Acoustic logo"
             width={55.34}
             height={50}
