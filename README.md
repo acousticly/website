@@ -60,6 +60,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Why is this here?
 
-Since Vercel restricts the use of GitHub orgs to a $20, I was forced to put this repo under my personal account.
+Since Vercel restricts the use of GitHub orgs to a $20/mo fee, I was forced to put this repo under my personal account.
 
 If you want to check out the original organization, go [here](https://github.com/acousticly)
