@@ -17,7 +17,6 @@ function App({ Component, pageProps }) {
         <link rel="preconnect" href="https://vitals.vercel-insights.com" />
         <link rel="dns-prefetch" href="https://discord.com" />
         <link rel="dns-prefetch" href="https://vitals.vercel-insights.com" />
-
         <meta
           name="description"
           content="Acoustic is the fastest, most feature rich bot ever."
@@ -45,7 +44,7 @@ function App({ Component, pageProps }) {
         />
         <meta
           name="Keywords"
-          content="discord, bot, discord bot, best discord, reddit, music, tunes, economy, github"
+          content="discord, bot, discord bot, best discord, reddit, music, tunes, economy, github, acoustic bot, acoustic discord bot, acoustic bot discord, jeve stobs, 24/7 commands, yandex music discord bot, fishing wikihow, stage bot discord, audiophile discord server, 24/7 bot commands"
         />
       </Head>
       <Script src="/static/js/gsap.min.js" strategy="beforeInteractive" />
