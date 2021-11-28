@@ -26,7 +26,10 @@ function App({ Component, pageProps }) {
         <meta property="og:title" content="Acoustic" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:url" content="https://acoustic.to" />
-        <meta property="og:image" content="/static/media/meta.webp" />
+        <meta
+          property="og:image"
+          content="https://acoustic.to/static/media/meta.webp"
+        />
         <meta property="og:type" content="website" />
         <meta
           property="og:description"
@@ -40,7 +43,7 @@ function App({ Component, pageProps }) {
         />
         <meta
           name="twitter:image"
-          content="https://acoustic.to//static/media/meta.webp"
+          content="https://acoustic.to/static/media/meta.webp"
         />
         <meta
           name="Keywords"
