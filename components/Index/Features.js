@@ -1,11 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
 import phone1 from '/public/static/media/phone-1.png'
 import phone2 from '/public/static/media/phone-2.png'
 import phone3 from '/public/static/media/phone-3.png'
-import discordFeat from '/public/static/svg/discordFeat.svg'
-import inviteFeat from '/public/static/svg/inviteFeat.svg'
 const Features = () => {
   return (
     <section id="features" className="section-features">
@@ -28,31 +25,6 @@ const Features = () => {
             Challenge your friends to a game of chance and see who can come out
             on top. Play at the blackjack table for a chance to make millions 🤑
           </p>
-          <div className="hero-cta">
-            <Link href="/invite">
-              <a className="hero-cta__icon">
-                <Image
-                  src={inviteFeat}
-                  alt="Invite Acoustic"
-                  width={35}
-                  height={35}
-                />
-              </a>
-            </Link>
-            <Link href="/support">
-              <a className="hero-cta__icon">
-                <Image
-                  src={discordFeat}
-                  alt="Invite Acoustic"
-                  width={35}
-                  height={35}
-                />
-              </a>
-            </Link>
-            <Link href="/invite">
-              <a className="hero-cta__text">Join us 😊</a>
-            </Link>
-          </div>
         </div>
       </div>
       <div className="section-features__box">
@@ -62,31 +34,6 @@ const Features = () => {
             Acoustic has a wide variety of useful commands to help you get the
             most out of your time on Discord.
           </p>
-          <div className="hero-cta">
-            <Link href="/invite">
-              <a className="hero-cta__icon">
-                <Image
-                  src={inviteFeat}
-                  alt="Invite Acoustic"
-                  width={35}
-                  height={35}
-                />
-              </a>
-            </Link>
-            <Link href="/support">
-              <a className="hero-cta__icon">
-                <Image
-                  src={discordFeat}
-                  alt="Invite Acoustic"
-                  width={35}
-                  height={35}
-                />
-              </a>
-            </Link>
-            <Link href="/invite">
-              <a className="hero-cta__text">Join us 😊</a>
-            </Link>
-          </div>
         </div>
         <div className="section-features__box--left section-features__box--left">
           <Image
@@ -116,31 +63,6 @@ const Features = () => {
             Acoustic doesn&apos;t compromise on sound quality. It&apos;s the
             right choice for Discord audiophiles everywhere.
           </p>
-          <div className="hero-cta">
-            <Link href="/invite">
-              <a className="hero-cta__icon">
-                <Image
-                  src={inviteFeat}
-                  alt="Invite Acoustic"
-                  width={35}
-                  height={35}
-                />
-              </a>
-            </Link>
-            <Link href="/support">
-              <a className="hero-cta__icon">
-                <Image
-                  src={discordFeat}
-                  alt="Invite Acoustic"
-                  width={35}
-                  height={35}
-                />
-              </a>
-            </Link>
-            <Link href="/invite">
-              <a className="hero-cta__text">Join us 😊</a>
-            </Link>
-          </div>
         </div>
       </div>
     </section>
