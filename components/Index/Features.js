@@ -28,13 +28,6 @@ const Features = () => {
         </div>
       </div>
       <div className="section-features__box">
-        <div className="section-features__box--right">
-          <h1 className="section-features__h1">🔥 Useful Commands</h1>
-          <p className="section-features__p">
-            Acoustic has a wide variety of useful commands to help you get the
-            most out of your time on Discord.
-          </p>
-        </div>
         <div className="section-features__box--left section-features__box--left">
           <Image
             src={phone2}
@@ -44,6 +37,13 @@ const Features = () => {
             height={724}
             placeholder="blur"
           />
+        </div>
+        <div className="section-features__box--right">
+          <h1 className="section-features__h1">🔥 Useful Commands</h1>
+          <p className="section-features__p">
+            Acoustic has a wide variety of useful commands to help you get the
+            most out of your time on Discord.
+          </p>
         </div>
       </div>
       <div className="section-features__box">
