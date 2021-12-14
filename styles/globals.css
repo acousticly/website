@@ -1435,19 +1435,21 @@ body {
     margin-top: 4rem !important;
   }
 }
-.section-testimonials:before {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-image: url(/static/media/testimonials.svg);
-  background-blend-mode: pass-through;
-  z-index: -1;
+@media screen and (min-width: 1024px) {
+  .section-testimonials:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/static/media/testimonials.svg);
+    background-blend-mode: pass-through;
+    z-index: -1;
+  }
 }
 .section-testimonials__container {
   grid-column: 2/14;
