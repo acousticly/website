@@ -60,7 +60,8 @@ const Testimonials = () => {
               </div>
               <div className="box__middle">
                 <h2 className="box__title">
-                  “Amazing bot! I love seeing it grow.”
+                  “Amazing bot! I love seeing it grow. I&apos;m rooting for you
+                  o/”
                 </h2>
               </div>
               <div className="box__bottom">
@@ -78,12 +79,10 @@ const Testimonials = () => {
                 </div>
               </div>
               <div className="box__middle">
-                <h2 className="box__title">
-                  “This is my go to music bot”
-                </h2>
+                <h2 className="box__title">“Good music bot overall.”</h2>
               </div>
               <div className="box__bottom">
-                <p className="box__author">- remo</p>
+                <p className="box__author">- Silver-c</p>
               </div>
             </div>
           </div>
