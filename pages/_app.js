@@ -30,6 +30,8 @@ function App({ Component, pageProps }) {
           property="og:image"
           content="https://acoustic.to/static/media/meta.webp"
         />
+        <meta property="og:image:width" content="120" />
+        <meta property="og:image:height" content="108" />
         <meta property="og:type" content="website" />
         <meta
           property="og:description"
