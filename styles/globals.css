@@ -1589,10 +1589,7 @@ body {
   align-items: center;
   margin-bottom: 3rem;
 }
-.section-testimonials
-  .box-wrapper
-  .box__top
-  .testimonials__image:not(:last-child) {
+.section-testimonials .box-wrapper .box__top img:not(:last-child) {
   margin-right: 0.75rem;
 }
 .section-testimonials .box-wrapper .box__title {
