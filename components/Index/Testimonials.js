@@ -11,11 +11,41 @@ const Testimonials = () => {
             <div className="box">
               <div className="box__top">
                 <div className="testimonials__image">
-                  <Image src={star} alt="star icon" width={30} height={30} />
-                  <Image src={star} alt="star icon" width={30} height={30} />
-                  <Image src={star} alt="star icon" width={30} height={30} />
-                  <Image src={star} alt="star icon" width={30} height={30} />
-                  <Image src={star} alt="star icon" width={30} height={30} />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
                 </div>
               </div>
               <div className="box__middle">
@@ -30,11 +60,41 @@ const Testimonials = () => {
             <div className="box">
               <div className="box__top">
                 <div className="testimonials__image">
-                  <Image src={star} alt="star icon" width={30} height={30} />
-                  <Image src={star} alt="star icon" width={30} height={30} />
-                  <Image src={star} alt="star icon" width={30} height={30} />
-                  <Image src={star} alt="star icon" width={30} height={30} />
-                  <Image src={star} alt="star icon" width={30} height={30} />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
                 </div>
               </div>
               <div className="box__middle">
@@ -51,11 +111,41 @@ const Testimonials = () => {
             <div className="box">
               <div className="box__top">
                 <div className="testimonials__image">
-                  <Image src={star} alt="star icon" width={30} height={30} />
-                  <Image src={star} alt="star icon" width={30} height={30} />
-                  <Image src={star} alt="star icon" width={30} height={30} />
-                  <Image src={star} alt="star icon" width={30} height={30} />
-                  <Image src={star} alt="star icon" width={30} height={30} />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
                 </div>
               </div>
               <div className="box__middle">
@@ -71,11 +161,41 @@ const Testimonials = () => {
             <div className="box">
               <div className="box__top">
                 <div className="testimonials__image">
-                  <Image src={star} alt="star icon" width={30} height={30} />
-                  <Image src={star} alt="star icon" width={30} height={30} />
-                  <Image src={star} alt="star icon" width={30} height={30} />
-                  <Image src={star} alt="star icon" width={30} height={30} />
-                  <Image src={star} alt="star icon" width={30} height={30} />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
                 </div>
               </div>
               <div className="box__middle">
@@ -90,11 +210,41 @@ const Testimonials = () => {
             <div className="box">
               <div className="box__top">
                 <div className="testimonials__image">
-                  <Image src={star} alt="star icon" width={30} height={30} />
-                  <Image src={star} alt="star icon" width={30} height={30} />
-                  <Image src={star} alt="star icon" width={30} height={30} />
-                  <Image src={star} alt="star icon" width={30} height={30} />
-                  <Image src={star} alt="star icon" width={30} height={30} />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
                 </div>
               </div>
               <div className="box__middle">
@@ -109,11 +259,41 @@ const Testimonials = () => {
             <div className="box">
               <div className="box__top">
                 <div className="testimonials__image">
-                  <Image src={star} alt="star icon" width={30} height={30} />
-                  <Image src={star} alt="star icon" width={30} height={30} />
-                  <Image src={star} alt="star icon" width={30} height={30} />
-                  <Image src={star} alt="star icon" width={30} height={30} />
-                  <Image src={star} alt="star icon" width={30} height={30} />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
+                  <Image
+                    src={star}
+                    alt="star icon"
+                    width={30}
+                    height={30}
+                    unoptimized={true}
+                  />
                 </div>
               </div>
               <div className="box__middle">
