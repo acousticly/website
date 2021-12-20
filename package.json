@@ -6,7 +6,7 @@
     "dev": "next dev",
     "start": "next start",
     "build": "next build",
-    "prod": "next build && next-sitemap --config next-sitemap.config.js",
+    "prod": "next build && next export && next-sitemap --config next-sitemap.config.js",
     "format": "prettier --write \"**/*.{js,jsx,json,css}\"",
     "lint": "next lint"
   },
