@@ -11,11 +11,36 @@ const Testimonials = () => {
             <div className="box">
               <div className="box__top">
                 <div className="testimonials__image">
-                  <img src="static/svg/star.svg" alt="star icon" />
-                  <img src="static/svg/star.svg" alt="star icon" />
-                  <img src="static/svg/star.svg" alt="star icon" />
-                  <img src="static/svg/star.svg" alt="star icon" />
-                  <img src="static/svg/star.svg" alt="star icon" />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
                 </div>
               </div>
               <div className="box__middle">
@@ -30,11 +55,36 @@ const Testimonials = () => {
             <div className="box">
               <div className="box__top">
                 <div className="testimonials__image">
-                  <img src="static/svg/star.svg" alt="star icon" />
-                  <img src="static/svg/star.svg" alt="star icon" />
-                  <img src="static/svg/star.svg" alt="star icon" />
-                  <img src="static/svg/star.svg" alt="star icon" />
-                  <img src="static/svg/star.svg" alt="star icon" />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
                 </div>
               </div>
               <div className="box__middle">
@@ -51,11 +101,36 @@ const Testimonials = () => {
             <div className="box">
               <div className="box__top">
                 <div className="testimonials__image">
-                  <img src="static/svg/star.svg" alt="star icon" />
-                  <img src="static/svg/star.svg" alt="star icon" />
-                  <img src="static/svg/star.svg" alt="star icon" />
-                  <img src="static/svg/star.svg" alt="star icon" />
-                  <img src="static/svg/star.svg" alt="star icon" />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
                 </div>
               </div>
               <div className="box__middle">
@@ -71,11 +146,36 @@ const Testimonials = () => {
             <div className="box">
               <div className="box__top">
                 <div className="testimonials__image">
-                  <img src="static/svg/star.svg" alt="star icon" />
-                  <img src="static/svg/star.svg" alt="star icon" />
-                  <img src="static/svg/star.svg" alt="star icon" />
-                  <img src="static/svg/star.svg" alt="star icon" />
-                  <img src="static/svg/star.svg" alt="star icon" />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
                 </div>
               </div>
               <div className="box__middle">
@@ -90,11 +190,36 @@ const Testimonials = () => {
             <div className="box">
               <div className="box__top">
                 <div className="testimonials__image">
-                  <img src="static/svg/star.svg" alt="star icon" />
-                  <img src="static/svg/star.svg" alt="star icon" />
-                  <img src="static/svg/star.svg" alt="star icon" />
-                  <img src="static/svg/star.svg" alt="star icon" />
-                  <img src="static/svg/star.svg" alt="star icon" />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
                 </div>
               </div>
               <div className="box__middle">
@@ -109,11 +234,36 @@ const Testimonials = () => {
             <div className="box">
               <div className="box__top">
                 <div className="testimonials__image">
-                  <img src="static/svg/star.svg" alt="star icon" />
-                  <img src="static/svg/star.svg" alt="star icon" />
-                  <img src="static/svg/star.svg" alt="star icon" />
-                  <img src="static/svg/star.svg" alt="star icon" />
-                  <img src="static/svg/star.svg" alt="star icon" />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
+                  <img
+                    src="static/svg/star.svg"
+                    alt="star icon"
+                    width={30}
+                    height={35}
+                  />
                 </div>
               </div>
               <div className="box__middle">
