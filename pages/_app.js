@@ -14,9 +14,14 @@ function App({ Component, pageProps }) {
         />
         <title>Acoustic</title>
         <link rel="preconnect" href="https://discord.com" />
-        <link rel="preconnect" href="https://vitals.vercel-insights.com" />
+        <link rel="preconnect" href="https://static.cloudflareinsights.com/" />
+        <link rel="preconnect" href="https://docs.acoustic.to" />
         <link rel="dns-prefetch" href="https://discord.com" />
-        <link rel="dns-prefetch" href="https://vitals.vercel-insights.com" />
+        <link
+          rel="dns-prefetch"
+          href="https://static.cloudflareinsights.com/"
+        />
+        <link rel="dns-prefetch" href="https://docs.acoustic.to" />
         <meta
           name="description"
           content="Acoustic is the fastest, most feature rich bot ever."
