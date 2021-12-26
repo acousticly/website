@@ -9,5 +9,9 @@ module.exports = {
     domains: ['https://res.cloudinary.com/'],
     path: '',
     loader: 'cloudinary'
+  },
+  i18n: {
+    locales: ['en'],
+    defaultLocale: 'en'
   }
 }
