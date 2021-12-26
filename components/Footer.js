@@ -56,7 +56,7 @@ const Footer = () => {
               <div className="ul-box">
                 <li>
                   <a>
-                    <Link href="/about"> About us</Link>
+                    <Link href="https://docs.acoustic.to">Docs</Link>
                   </a>
                 </li>
                 <li>

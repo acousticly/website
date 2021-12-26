@@ -30,7 +30,7 @@ const Nav = () => {
         </li>
         <li className="nav-item nav-link">
           <a>
-            <Link href="/about">About Us</Link>
+            <Link href="https://docs.acoustic.to">Docs</Link>
           </a>
         </li>
         <Link href="/invite" passHref>
@@ -51,8 +51,8 @@ const Nav = () => {
         <Link href="faq" passHref>
           FAQ
         </Link>
-        <Link href="about" passHref>
-          About Us
+        <Link href="https://docs.acoustic.to" passHref>
+          Docs
         </Link>
       </div>
     </nav>

@@ -942,33 +942,6 @@ body {
 .openNav {
   display: block;
 }
-.section-about {
-  grid-column: 2/14;
-  padding: 6rem;
-  margin-top: 5rem;
-}
-@media only screen and (max-width: 30em) {
-  .section-about {
-    margin-top: 4rem !important;
-  }
-}
-@media only screen and (max-width: 37.5em) {
-  .section-about {
-    padding: 4rem;
-  }
-}
-.section-about__title {
-  font-family: GT Walsheim Pro Bold, sans-serif;
-  font-size: 6rem;
-  line-height: 85px;
-  color: var(--color-white);
-}
-.section-about__p {
-  margin-top: 2.4rem;
-  font-size: 3rem;
-  line-height: 32px;
-  color: var(--color-gray);
-}
 .section-faq {
   grid-column: 2/14;
   padding: 6rem;
