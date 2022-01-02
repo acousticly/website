@@ -57,8 +57,14 @@ function App({ Component, pageProps }) {
           content="discord, bot, discord bot, best discord, reddit, music, tunes, economy, github, acoustic bot, acoustic discord bot, acoustic bot discord, jeve stobs, 24/7 commands, yandex music discord bot, fishing wikihow, stage bot discord, audiophile discord server, 24/7 bot commands"
         />
       </Head>
-      <Script src="/static/js/gsap.min.js" strategy="beforeInteractive" />
-      <Script src="/static/js/ScrollTrigger.js" strategy="beforeInteractive" />
+      <Script
+        src="//cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+        strategy="beforeInteractive"
+      />
+      <Script
+        src="//cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"
+        strategy="beforeInteractive"
+      />
       <Script src="/static/js/script.js" strategy="beforeInteractive" />
 
       <div className="container">

@@ -1,7 +1,4 @@
-.next
 sw.js
 workbox-*.js
-public/static/js/gsap.min.js
-public/static/js/ScrollTrigger.js
 build/
 out/
