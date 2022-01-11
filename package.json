@@ -6,14 +6,15 @@
     "dev": "next dev",
     "start": "next start",
     "build": "next build",
-    "prod": "next build && next export && next-sitemap --config next-sitemap.config.js",
+    "prod": "next build && next-sitemap --config next-sitemap.config.js",
     "testprod": "next build && next export",
     "format": "prettier --write \"**/*.{js,jsx,json,css}\"",
     "lint": "next lint"
   },
   "dependencies": {
     "markdown-to-jsx": "^7.1.5",
-    "next": "12.0.8-canary.19",
+    "next": "12.0.8-canary.20",
+    "next-seo": "^4.28.1",
     "next-sitemap": "^1.8.4",
     "react": "17.0.2",
     "react-dom": "^17.0.2",
@@ -22,7 +23,7 @@
   "devDependencies": {
     "critters": "^0.0.16",
     "eslint": "8.6.0",
-    "eslint-config-next": "12.0.8-canary.19",
+    "eslint-config-next": "12.0.8-canary.20",
     "prettier": "2.5.1"
   },
   "optionalDependencies": {
