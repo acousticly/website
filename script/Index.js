@@ -46,7 +46,7 @@ export const IndexScript = () => {
       )
       animateResultCount(
         document.querySelector('#number2').textContent,
-        65,
+        128,
         '#number2'
       )
       animateResultCount(
