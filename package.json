@@ -13,9 +13,9 @@
   },
   "dependencies": {
     "markdown-to-jsx": "^7.1.5",
-    "next": "12.0.8-canary.21",
+    "next": "12.0.8",
     "next-seo": "^4.28.1",
-    "next-sitemap": "^1.8.4",
+    "next-sitemap": "^1.8.11",
     "react": "17.0.2",
     "react-dom": "^17.0.2",
     "sharp": "^0.29.3"
@@ -23,7 +23,7 @@
   "devDependencies": {
     "critters": "^0.0.16",
     "eslint": "8.6.0",
-    "eslint-config-next": "12.0.8-canary.21",
+    "eslint-config-next": "12.0.8",
     "prettier": "2.5.1"
   },
   "optionalDependencies": {
