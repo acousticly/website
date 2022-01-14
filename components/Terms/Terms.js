@@ -18,9 +18,7 @@ const Terms = () => {
           please do not use the Service. Also, if a term does not make sense to
           you, please let us know by e-mailing{' '}
           <a>
-            <Link href="mailto:acousticmusicbot@gmail.com">
-              acousticmusicbot@gmail.com
-            </Link>
+            <Link href="mailto:contact@acoustic.to">contact@acoustic.to</Link>
           </a>
         </p>
         <h2>Changes to these Terms</h2>
@@ -165,9 +163,7 @@ const Terms = () => {
           Questions or comments about the Service may be directed to us at the
           email address{' '}
           <a>
-            <Link href="mailto:acousticmusicbot@gmail.com">
-              acousticmusicbot@gmail.com
-            </Link>
+            <Link href="mailto:contact@acoustic.to">contact@acoustic.to</Link>
           </a>
         </p>
       </div>
