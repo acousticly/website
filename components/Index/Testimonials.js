@@ -1,6 +1,3 @@
-import React from 'react'
-import Image from 'next/image'
-import star from '/public/static/svg/star.svg'
 const Testimonials = () => {
   return (
     <section id="testimonials" className="section-testimonials">
@@ -15,31 +12,31 @@ const Testimonials = () => {
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                   <img
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                   <img
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                   <img
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                   <img
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                 </div>
               </div>
@@ -59,31 +56,31 @@ const Testimonials = () => {
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                   <img
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                   <img
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                   <img
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                   <img
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                 </div>
               </div>
@@ -105,31 +102,31 @@ const Testimonials = () => {
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                   <img
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                   <img
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                   <img
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                   <img
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                 </div>
               </div>
@@ -150,31 +147,31 @@ const Testimonials = () => {
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                   <img
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                   <img
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                   <img
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                   <img
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                 </div>
               </div>
@@ -194,31 +191,31 @@ const Testimonials = () => {
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                   <img
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                   <img
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                   <img
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                   <img
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                 </div>
               </div>
@@ -238,31 +235,31 @@ const Testimonials = () => {
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                   <img
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                   <img
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                   <img
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                   <img
                     src="static/svg/star.svg"
                     alt="star icon"
                     width={30}
-                    height={35}
+                    height={30}
                   />
                 </div>
               </div>
