@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { IndexScript } from '../../script/Index'
 import Link from 'next/link'
 import Image from 'next/image'

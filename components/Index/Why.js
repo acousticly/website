@@ -1,4 +1,3 @@
-import React from 'react'
 import Image from 'next/image'
 import rocket from '/public/static/svg/rocket.svg'
 import customers from '/public/static/svg/customers.svg'

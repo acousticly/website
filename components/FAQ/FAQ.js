@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { faqfunc } from '../../script/FAQ'
 import { faqData } from './FaqData'
 import Image from 'next/image'

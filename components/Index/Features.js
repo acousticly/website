@@ -1,4 +1,3 @@
-import React from 'react'
 import Image from 'next/image'
 import phone1 from '/public/static/media/phone-1.png'
 import phone2 from '/public/static/media/phone-2.png'
