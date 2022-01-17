@@ -25,7 +25,6 @@ html {
   box-sizing: border-box;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
 }
 @media only screen and (max-width: 62.5em) {
@@ -1420,7 +1419,6 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(/static/media/testimonials.svg);
-    background-blend-mode: pass-through;
     z-index: -1;
   }
 }
