@@ -40,7 +40,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a>
-                    <Link href="/#features"> Features</Link>
+                    <Link href="https://status.acoustic.to"> Status</Link>
                   </a>
                 </li>
                 <li>

@@ -32,6 +32,11 @@ const Nav = () => {
             <Link href="https://docs.acoustic.to">Docs</Link>
           </a>
         </li>
+        <li className="nav-item nav-link">
+          <a>
+            <Link href="https://status.acoustic.to">Status</Link>
+          </a>
+        </li>
         <Link href="/invite" passHref>
           <button className="nav-rocket-button nav-item">
             <span>Begin your journey</span>
@@ -52,6 +57,9 @@ const Nav = () => {
         </Link>
         <Link href="https://docs.acoustic.to" passHref>
           Docs
+        </Link>
+        <Link href="https://status.acoustic.to" passHref>
+          Status
         </Link>
       </div>
     </nav>
