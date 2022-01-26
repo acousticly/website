@@ -31,6 +31,8 @@ export const faqData = [
 		Getyarn
 		Yandex Music
 		Odysee
+    Clypit
+    Ocremix
 		Direct Links`
   },
   {
