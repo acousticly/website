@@ -1,4 +1,6 @@
-module.exports = {
+const withPreact = require('next-plugin-preact')
+
+module.exports = withPreact({
   generateBuildId: () => 'build',
   distDir: 'build',
   reactStrictMode: true,
@@ -55,4 +57,4 @@ module.exports = {
       }
     ]
   }
-}
+})
