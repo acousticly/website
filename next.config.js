@@ -22,7 +22,7 @@ module.exports = withPreact({
       {
         source: '/invite',
         destination:
-          'https://discord.com/api/oauth2/authorize?client_id=816842865732091924&permissions=8&redirect_uri=http%3A%2F%2Foauth.acoustic.to&response_type=code&scope=bot%20guilds.join%20identify%20applications.commands',
+          'https://discord.com/oauth2/authorize?response_type=code&client_id=816842865732091924&scope=bot%20guilds.join%20identify%20applications.commands&permissions=8&redirect_uri',
         permanent: true
       },
       {
