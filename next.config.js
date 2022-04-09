@@ -54,6 +54,11 @@ module.exports = withPreact({
         source: '/patreon',
         destination: 'https://patreon.com/acousticly',
         permanent: true
+      },
+      {
+        source: '/discord',
+        destination: 'https://discord.com/servers/acoustic-community-830229630950047774',
+        permanent: true
       }
     ]
   }
