@@ -22,11 +22,14 @@ export const faqData = [
     answer: `These are the current sites that music can be played from: 
 		YouTube
 		SoundCloud
+    Tidal
 		Reddit
 		Spotify
 		Twitch
 		Vimeo
 		BandCamp
+    Deezer
+    Facebook
 		Apple Music
 		Getyarn
 		Yandex Music
