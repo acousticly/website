@@ -18,27 +18,6 @@ export const faqData = [
     answer: 'Yes! Acoustic does support the creation of custom playlists.'
   },
   {
-    question: 'What music sites does Acoustic currently support?',
-    answer: `These are the current sites that music can be played from: 
-		YouTube
-		SoundCloud
-    Tidal
-		Reddit
-		Spotify
-		Twitch
-		Vimeo
-		BandCamp
-    Deezer
-    Facebook
-		Apple Music
-		Getyarn
-		Yandex Music
-		Odysee
-    Clypit
-    Ocremix
-		Direct Links`
-  },
-  {
     question: 'Can I make custom commands for Acoustic?',
     answer: 'No, we do not allow custom commands/aliases.'
   },
