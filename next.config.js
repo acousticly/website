@@ -57,7 +57,8 @@ module.exports = withPreact({
       },
       {
         source: '/discord',
-        destination: 'https://discord.com/servers/acoustic-community-830229630950047774',
+        destination:
+          'https://discord.com/servers/acoustic-community-830229630950047774',
         permanent: true
       }
     ]

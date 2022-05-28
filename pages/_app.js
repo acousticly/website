@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import Script from 'next/script'
+import { DefaultSeo } from 'next-seo'
 
 function App({ Component, pageProps }) {
   return (
@@ -30,46 +31,43 @@ function App({ Component, pageProps }) {
         />
         <link rel="icon" href="/static/media/meta.webp" />
         <meta name="theme-color" content="#13161D" />
-        <meta property="og:title" content="Acoustic" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:url" content="https://acoustic.to" />
-        <meta
-          property="og:image"
-          content="https://acoustic.to/static/media/meta.webp"
-        />
-        <meta property="og:image:width" content="120" />
-        <meta property="og:image:height" content="108" />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:description"
-          content="Acoustic is the fastest, most feature rich bot ever."
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Acoustic" />
-        <meta
-          name="twitter:description"
-          content="Acoustic is the fastest, most feature rich bot ever."
-        />
-        <meta
-          name="twitter:image"
-          content="https://acoustic.to/static/media/meta.webp"
-        />
         <meta
           name="Keywords"
           content="discord, bot, discord bot, best discord, reddit, music, tunes, economy, github, acoustic bot, acoustic discord bot, acoustic bot discord, jeve stobs, 24/7 commands, yandex music discord bot, fishing wikihow, stage bot discord, audiophile discord server, 24/7 bot commands"
         />
       </Head>
       <Script
-        src="//cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+        src="//cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
         strategy="beforeInteractive"
       />
       <Script
-        src="//cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"
+        src="//cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"
         strategy="beforeInteractive"
       />
-      <Script src="/static/js/script.js" strategy="beforeInteractive" />
-
+      <Script src="/static/js/script.js" />
       <div className="container">
+        <DefaultSeo
+          title="Acoustic"
+          description="Acoustic is the fastest, most feature rich bot ever."
+          openGraph={{
+            url: 'https://acoustic.to',
+            title: 'Acoustic',
+            description: 'Acoustic is the fastest, most feature rich bot ever.',
+            images: [
+              {
+                url: 'https://acoustic.to/static/media/meta.webp',
+                width: 120,
+                height: 108,
+                alt: 'Acoustic'
+              }
+            ]
+          }}
+          twitter={{
+            handle: '@acousticlybot',
+            site: '@acousticlybot',
+            cardType: 'summary_large_image'
+          }}
+        />
         <Nav />
         <Component {...pageProps} />
         <Footer />
