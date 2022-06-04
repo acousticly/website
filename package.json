@@ -12,29 +12,30 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/env": "^12.1.7-canary.29",
     "@prefresh/babel-plugin": "^0.4.3",
     "markdown-to-jsx": "^7.1.7",
-    "next": "12.1.7-canary.19",
+    "next": "12.1.7-canary.29",
     "next-plugin-preact": "^3.0.6",
     "next-seo": "^5.4.0",
-    "next-sitemap": "^2.5.27",
-    "preact": "^10.7.2",
+    "next-sitemap": "^3.0.5",
+    "preact": "^10.7.3",
     "preact-render-to-string": "^5.2.0",
     "preact-ssr-prepass": "^1.2.0",
-    "react": "npm:@preact/compat@17.0.3",
-    "react-dom": "npm:@preact/compat@^17.0.3",
-    "react-ssr-prepass": "npm:preact-ssr-prepass@^1.2.0",
-    "sharp": "^0.30.5",
-    "webpack": "^5.72.1"
+    "react": "npm:@preact/compat",
+    "react-dom": "npm:@preact/compat",
+    "react-ssr-prepass": "npm:preact-ssr-prepass",
+    "sharp": "^0.30.6",
+    "webpack": "^5.73.0"
   },
   "devDependencies": {
     "critters": "^0.0.16",
-    "eslint": "8.16.0",
-    "eslint-config-next": "12.1.7-canary.19",
+    "eslint": "8.17.0",
+    "eslint-config-next": "12.1.7-canary.29",
     "prettier": "2.6.2"
   },
   "optionalDependencies": {
     "@babel/core": "^7.18.2",
-    "typescript": "^4.7.2"
+    "typescript": "^4.7.3"
   }
 }
