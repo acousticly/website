@@ -16,8 +16,8 @@ specifiers:
   preact-render-to-string: ^5.2.0
   preact-ssr-prepass: ^1.2.0
   prettier: 2.7.1
-  react: npm:@preact/compat
-  react-dom: npm:@preact/compat
+  react: npm:@preact/compat@^17.1.1
+  react-dom: npm:@preact/compat@^17.1.1
   react-ssr-prepass: npm:preact-ssr-prepass
   sharp: ^0.30.7
   typescript: ^4.7.4
