@@ -41,12 +41,12 @@ export const IndexScript = () => {
     if (number1 && number2 && number3 && number4) {
       animateResultCountFast(
         document.querySelector('#number1').textContent,
-        430,
+        581,
         '#number1'
       )
       animateResultCountFast(
         document.querySelector('#number2').textContent,
-        128,
+        239,
         '#number2'
       )
       animateResultCount(
@@ -56,7 +56,7 @@ export const IndexScript = () => {
       )
       animateResultCount(
         document.querySelector('#number4').textContent,
-        75,
+        70,
         '#number4'
       )
     }
