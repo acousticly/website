@@ -12,15 +12,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/env": "^12.2.0",
+    "@next/env": "^12.2.2",
     "@prefresh/babel-plugin": "^0.4.3",
     "markdown-to-jsx": "^7.1.7",
-    "next": "12.2.0",
+    "next": "12.2.2",
     "next-plugin-preact": "^3.0.7",
     "next-seo": "^5.4.0",
-    "next-sitemap": "^3.1.7",
-    "preact": "^10.8.2",
-    "preact-render-to-string": "^5.2.0",
+    "next-sitemap": "^3.1.10",
+    "preact": "^10.9.0",
+    "preact-render-to-string": "^5.2.1",
     "preact-ssr-prepass": "^1.2.0",
     "react": "npm:@preact/compat@^17.1.1",
     "react-dom": "npm:@preact/compat@^17.1.1",
@@ -30,8 +30,8 @@
   },
   "devDependencies": {
     "critters": "^0.0.16",
-    "eslint": "8.18.0",
-    "eslint-config-next": "12.2.0",
+    "eslint": "8.19.0",
+    "eslint-config-next": "12.2.2",
     "prettier": "2.7.1"
   },
   "optionalDependencies": {

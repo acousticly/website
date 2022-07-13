@@ -15,13 +15,18 @@ function App({ Component, pageProps }) {
         />
         <title>Acoustic</title>
         <link rel="preconnect" href="https://discord.com" />
-        <link rel="preconnect" href="https://static.cloudflareinsights.com/" />
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+        <link rel="preconnect" href="https://vitals.vercel-insights.com" />
         <link rel="preconnect" href="https://docs.acoustic.to" />
         <link rel="preconnect" href="https://status.acoustic.to" />
         <link rel="dns-prefetch" href="https://discord.com" />
         <link
           rel="dns-prefetch"
-          href="https://static.cloudflareinsights.com/"
+          href="https://cdnjs.cloudflare.com"
+        />
+        <link
+          rel="dns-prefetch"
+          href="https://vitals.vercel-insights.com"
         />
         <link rel="dns-prefetch" href="https://docs.acoustic.to" />
         <link rel="dns-prefetch" href="https://status.acoustic.to" />
@@ -36,8 +41,14 @@ function App({ Component, pageProps }) {
           content="discord, bot, discord bot, best discord, reddit, music, tunes, economy, github, acoustic bot, acoustic discord bot, acoustic bot discord, jeve stobs, 24/7 commands, yandex music discord bot, fishing wikihow, stage bot discord, audiophile discord server, 24/7 bot commands"
         />
       </Head>
-      <Script src="//cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" />
-      <Script src="//cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js" />
+      <Script
+        src="//cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
+        strategy="beforeInteractive"
+      />
+      <Script
+        src="//cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"
+        strategy="beforeInteractive"
+      />
       <Script src="/static/js/script.js" />
       <div className="container">
         <DefaultSeo
