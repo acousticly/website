@@ -52,7 +52,6 @@ const Header = () => {
                     alt="Invite Acoustic"
                     width={55}
                     height={55}
-                    unoptimized={true}
                   />
                 </a>
               </Link>
@@ -63,7 +62,6 @@ const Header = () => {
                     alt="Join the community"
                     width={55}
                     height={55}
-                    unoptimized={true}
                   />
                 </a>
               </Link>
@@ -79,7 +77,6 @@ const Header = () => {
             width={706}
             height={868}
             loading="lazy"
-            unoptimized={true}
           />
         </div>
       </div>

@@ -18,13 +18,7 @@ const FAQ = () => {
           <div className="faq-box" key={index}>
             <div className="faq-box__top">
               <h2 className="faq-box__title">{el.question}</h2>
-              <Image
-                src={chevron}
-                alt="chevron icon"
-                width={12}
-                height={10}
-                unoptimized={true}
-              />
+              <Image src={chevron} alt="chevron icon" width={12} height={10} />
             </div>
             <div className="faq-box__bottom">
               <p className="faq-box__p">

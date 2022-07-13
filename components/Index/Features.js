@@ -14,7 +14,6 @@ const Features = () => {
             width={383}
             height={724}
             placeholder="blur"
-            unoptimized={true}
           />
         </div>
         <div className="section-features__box--right">
@@ -43,7 +42,6 @@ const Features = () => {
             width={383}
             height={724}
             placeholder="blur"
-            unoptimized={true}
           />
         </div>
       </div>
@@ -56,7 +54,6 @@ const Features = () => {
             width={383}
             height={724}
             placeholder="blur"
-            unoptimized={true}
           />
         </div>
         <div className="section-features__box--right">

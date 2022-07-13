@@ -12,7 +12,6 @@ const Nav = () => {
             alt="Acoustic logo"
             width={55.34}
             height={50}
-            unoptimized={true}
           />
         </Link>
       </a>
