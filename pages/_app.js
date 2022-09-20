@@ -36,11 +36,11 @@ function App({ Component, pageProps }) {
         />
       </Head>
       <Script
-        src="//cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
+        src="//cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"
         strategy="beforeInteractive"
       />
       <Script
-        src="//cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"
+        src="//cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"
         strategy="beforeInteractive"
       />
       <Script src="/static/js/script.js" />
