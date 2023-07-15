@@ -37,7 +37,7 @@ const Footer = () => {
                   <Link href="/support"> Community</Link>
                 </li>
                 <li>
-                  <Link href="https://status.acoustic.to"> Status</Link>
+                  <Link href="https://top.gg/bot/816842865732091924"> Vote</Link>
                 </li>
                 <li>
                   <Link href="/faq"> FAQs</Link>

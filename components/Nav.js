@@ -24,7 +24,7 @@ const Nav = () => {
           <Link href="https://docs.acoustic.to">Docs</Link>
         </li>
         <li className="nav-item nav-link">
-          <Link href="https://status.acoustic.to">Status</Link>
+          <Link href="https://top.gg/bot/816842865732091924">Vote</Link>
         </li>
         <Link href="/invite" passHref>
           <button className="nav-rocket-button nav-item">
@@ -47,8 +47,8 @@ const Nav = () => {
         <Link href="https://docs.acoustic.to" passHref>
           Docs
         </Link>
-        <Link href="https://status.acoustic.to" passHref>
-          Status
+        <Link href="https://top.gg/bot/816842865732091924" passHref>
+          Vote
         </Link>
       </div>
     </nav>
