@@ -18,9 +18,11 @@ function App({ Component, pageProps }) {
         <link rel="preconnect" href="https://discord.com" />
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
         <link rel="preconnect" href="https://docs.acoustic.to" />
+        <link rel="preconnect" href="https://status.acoustic.to" />
         <link rel="dns-prefetch" href="https://discord.com" />
         <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
         <link rel="dns-prefetch" href="https://docs.acoustic.to" />
+        <link rel="dns-prefetch" href="https://status.acoustic.to" />
         <meta
           name="description"
           content="Acoustic is the fastest, most feature rich bot ever."
