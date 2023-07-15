@@ -34,19 +34,13 @@ const Footer = () => {
               <h3 className="footer__h3">Quick Links</h3>
               <div className="ul-box">
                 <li>
-                  <a>
-                    <Link href="/support"> Community</Link>
-                  </a>
+                  <Link href="/support"> Community</Link>
                 </li>
                 <li>
-                  <a>
-                    <Link href="https://status.acoustic.to"> Status</Link>
-                  </a>
+                  <Link href="https://status.acoustic.to"> Status</Link>
                 </li>
                 <li>
-                  <a>
-                    <Link href="/faq"> FAQs</Link>
-                  </a>
+                  <Link href="/faq"> FAQs</Link>
                 </li>
               </div>
             </ul>
@@ -54,19 +48,13 @@ const Footer = () => {
               <h3 className="footer__h3">Company</h3>
               <div className="ul-box">
                 <li>
-                  <a>
-                    <Link href="https://docs.acoustic.to">Docs</Link>
-                  </a>
+                  <Link href="https://docs.acoustic.to">Docs</Link>
                 </li>
                 <li>
-                  <a>
-                    <Link href="/privacy">Privacy Policy</Link>
-                  </a>
+                  <Link href="/privacy">Privacy Policy</Link>
                 </li>
                 <li>
-                  <a>
-                    <Link href="/terms"> Terms &amp; Conditions</Link>
-                  </a>
+                  <Link href="/terms"> Terms &amp; Conditions</Link>
                 </li>
               </div>
             </ul>
@@ -75,7 +63,8 @@ const Footer = () => {
         <div className="footer__bottom">
           <div className="line" />
           <h6 className="footer__copy">
-            © {new Date().getFullYear()} Copyright Acoustic. All rights reserved
+            © {new Date().getFullYear()} Copyright Acoustic. All rights
+            reserved
           </h6>
         </div>
       </div>

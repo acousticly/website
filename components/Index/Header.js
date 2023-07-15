@@ -46,26 +46,26 @@ const Header = () => {
           <div>
             <div className="hero-cta">
               <Link href="/invite">
-                <a className="hero-main__icon">
+                <div className="hero-main__icon">
                   <Image
                     src={invite}
                     alt="Invite Acoustic"
-                    width={55}
+                    width="auto"
                     height={55}
                   />
-                </a>
+                </div>
               </Link>
               <Link href="/support">
-                <a className="hero-main__icon">
+                <div className="hero-main__icon">
                   <Image
                     src={discord}
                     alt="Join the community"
                     width={55}
                     height={55}
                   />
-                </a>
+                </div>
               </Link>
-              <a className="hero-main__text">Join us</a>
+              <div className="hero-main__text">Join us</div>
             </div>
           </div>
         </div>
@@ -74,8 +74,8 @@ const Header = () => {
             className="home-header__img"
             src={welcome}
             alt="acoustic phone mockup"
-            width={706}
-            height={868}
+            width="auto"
+            height={700}
             loading="lazy"
           />
         </div>

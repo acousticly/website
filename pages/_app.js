@@ -4,6 +4,7 @@ import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import Script from 'next/script'
 import { DefaultSeo } from 'next-seo'
+import { Analytics } from '@vercel/analytics/react'
 
 function App({ Component, pageProps }) {
   return (
@@ -16,12 +17,10 @@ function App({ Component, pageProps }) {
         <title>Acoustic</title>
         <link rel="preconnect" href="https://discord.com" />
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
-        <link rel="preconnect" href="https://vitals.vercel-insights.com" />
         <link rel="preconnect" href="https://docs.acoustic.to" />
         <link rel="preconnect" href="https://status.acoustic.to" />
         <link rel="dns-prefetch" href="https://discord.com" />
         <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
-        <link rel="dns-prefetch" href="https://vitals.vercel-insights.com" />
         <link rel="dns-prefetch" href="https://docs.acoustic.to" />
         <link rel="dns-prefetch" href="https://status.acoustic.to" />
         <meta
@@ -36,11 +35,11 @@ function App({ Component, pageProps }) {
         />
       </Head>
       <Script
-        src="//cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"
+        src="//cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
         strategy="beforeInteractive"
       />
       <Script
-        src="//cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"
+        src="//cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
         strategy="beforeInteractive"
       />
       <Script src="/static/js/script.js" />
@@ -69,6 +68,7 @@ function App({ Component, pageProps }) {
         />
         <Nav />
         <Component {...pageProps} />
+        <Analytics />
         <Footer />
       </div>
     </>
@@ -76,6 +76,3 @@ function App({ Component, pageProps }) {
 }
 
 export default App
-export function reportWebVitals(metric) {
-  console.log(metric)
-}

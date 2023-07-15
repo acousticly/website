@@ -11,7 +11,7 @@ const Why = () => {
             className="brand-logo"
             src={rocket}
             alt="rocket icon"
-            width={64}
+            width="auto"
             height={64}
           />
           <h2 className="section-why__h2">Fast &amp; Dependable 🚀</h2>
@@ -25,7 +25,7 @@ const Why = () => {
             className="brand-logo"
             src={customers}
             alt="customer icon"
-            width={64}
+            width="auto"
             height={64}
           />
           <h2 className="section-why__h2">100% Customer Satisfaction</h2>
@@ -39,7 +39,7 @@ const Why = () => {
             className="brand-logo"
             src={speed}
             alt="speed icon"
-            width={64}
+            width="auto"
             height={64}
           />
           <h2 className="section-why__h2">Speedy Support</h2>

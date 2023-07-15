@@ -11,7 +11,7 @@ const Features = () => {
             src={phone1}
             alt="acoustic economy showcase"
             id="image1"
-            width={383}
+            width="auto"
             height={724}
             placeholder="blur"
           />
@@ -39,7 +39,7 @@ const Features = () => {
             src={phone2}
             id="image2"
             alt="Acoustic avatar showcase"
-            width={383}
+            width="auto"
             height={724}
             placeholder="blur"
           />
@@ -51,7 +51,7 @@ const Features = () => {
             src={phone3}
             id="image3"
             alt="Acoustic music showcase"
-            width={383}
+            width="auto"
             height={724}
             placeholder="blur"
           />

@@ -17,9 +17,7 @@ const Terms = () => {
           all of the terms. If you don&apos;t agree to all of the terms below,
           please do not use the Service. Also, if a term does not make sense to
           you, please let us know by e-mailing{' '}
-          <a>
-            <Link href="mailto:contact@acoustic.to">contact@acoustic.to</Link>
-          </a>
+          <Link href="mailto:contact@acoustic.to">contact@acoustic.to</Link>
         </p>
         <h2>Changes to these Terms</h2>
         <p>
@@ -38,10 +36,7 @@ const Terms = () => {
           <h2>Privacy Policy</h2>
           For information about how we collect and use information about users
           of the Service, please check out our{' '}
-          <a>
-            <Link href="/privacy">privacy policy</Link>{' '}
-          </a>
-          <br />
+          <Link href="/privacy">privacy policy</Link> <br />
           <h2>Third-Party Services</h2>
           From time to time, we may provide you with links to third party
           websites or services that we do not own or control. Your use of the
@@ -162,9 +157,7 @@ const Terms = () => {
         <p>
           Questions or comments about the Service may be directed to us at the
           email address{' '}
-          <a>
-            <Link href="mailto:contact@acoustic.to">contact@acoustic.to</Link>
-          </a>
+          <Link href="mailto:contact@acoustic.to">contact@acoustic.to</Link>
         </p>
       </div>
     </section>

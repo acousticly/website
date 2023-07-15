@@ -4,37 +4,27 @@ import meta from '/public/static/media/meta.webp'
 const Nav = () => {
   return (
     <nav className="nav-container">
-      <a>
-        <Link href="https://acoustic.to" passHref>
-          <Image
-            className="brand-logo"
-            src={meta}
-            alt="Acoustic logo"
-            width={55.34}
-            height={50}
-          />
-        </Link>
-      </a>
+      <Link href="https://acoustic.to" passHref>
+        <Image
+          className="brand-logo"
+          src={meta}
+          alt="Acoustic logo"
+          width="auto"
+          height={50}
+        />
+      </Link>
       <ul className="nav-list">
         <li className="nav-item nav-link">
-          <a>
-            <Link href="/#features">Features</Link>
-          </a>
+          <Link href="/#features">Features</Link>
         </li>
         <li className="nav-item nav-link">
-          <a>
-            <Link href="faq">FAQ</Link>
-          </a>
+          <Link href="faq">FAQ</Link>
         </li>
         <li className="nav-item nav-link">
-          <a>
-            <Link href="https://docs.acoustic.to">Docs</Link>
-          </a>
+          <Link href="https://docs.acoustic.to">Docs</Link>
         </li>
         <li className="nav-item nav-link">
-          <a>
-            <Link href="https://status.acoustic.to">Status</Link>
-          </a>
+          <Link href="https://status.acoustic.to">Status</Link>
         </li>
         <Link href="/invite" passHref>
           <button className="nav-rocket-button nav-item">

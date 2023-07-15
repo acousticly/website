@@ -48,7 +48,9 @@ html {
   }
 }
 body {
-  font-family: GT Walsheim Pro Regular, sans-serif;
+  font-family:
+    GT Walsheim Pro Regular,
+    sans-serif;
   font-size: 1.6rem;
   overflow-x: hidden;
   background-color: var(--color-secondary);
@@ -106,7 +108,9 @@ body {
 }
 @font-face {
   font-family: GT Walsheim Pro Bold;
-  src: local('GT Walsheim Pro Bold'), local('GT-Walsheim-Pro-Bold'),
+  src:
+    local('GT Walsheim Pro Bold'),
+    local('GT-Walsheim-Pro-Bold'),
     url(/static/fonts/GTWalsheimPro-Bold.woff) format('woff');
   font-weight: 700;
   font-style: normal;
@@ -114,7 +118,9 @@ body {
 }
 @font-face {
   font-family: GT Walsheim Pro Medium;
-  src: local('GT Walsheim Pro Medium'), local('GT-Walsheim-Pro-Medium'),
+  src:
+    local('GT Walsheim Pro Medium'),
+    local('GT-Walsheim-Pro-Medium'),
     url(/static/fonts/GTWalsheimPro-Medium.woff) format('woff');
   font-weight: 500;
   font-style: normal;
@@ -122,7 +128,9 @@ body {
 }
 @font-face {
   font-family: GT Walsheim Pro Regular;
-  src: local('GT Walsheim Pro Regular'), local('GT-Walsheim-Pro-Regular'),
+  src:
+    local('GT Walsheim Pro Regular'),
+    local('GT-Walsheim-Pro-Regular'),
     url(/static/fonts/GTWalsheimPro-Regular.woff) format('woff');
   font-weight: 400;
   font-style: normal;
@@ -262,13 +270,17 @@ body {
   opacity: 0.75;
 }
 .hero-cta__text {
-  font-family: GT Walsheim Pro Bold, sans-serif;
+  font-family:
+    GT Walsheim Pro Bold,
+    sans-serif;
   font-size: 3.4rem;
   color: #fff;
   text-decoration: none;
 }
 .hero-main__text {
-  font-family: GT Walsheim Pro Bold, sans-serif;
+  font-family:
+    GT Walsheim Pro Bold,
+    sans-serif;
   font-size: 3.4rem;
   background: linear-gradient(
     147deg,
@@ -315,8 +327,11 @@ body {
 .rocket-button:hover {
   background-color: transparent;
   filter: brightness(1.125);
-  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.09), 0 4px 2px rgba(0, 0, 0, 0.09),
-    0 8px 8px rgba(0, 0, 0, 0.06), 0 16px 18px rgba(65, 56, 56, 0.04),
+  box-shadow:
+    0 2px 1px rgba(0, 0, 0, 0.09),
+    0 4px 2px rgba(0, 0, 0, 0.09),
+    0 8px 8px rgba(0, 0, 0, 0.06),
+    0 16px 18px rgba(65, 56, 56, 0.04),
     0 32px 36px rgba(0, 0, 0, 0.02);
   transform: scale(1.05);
   background-position: 100%;
@@ -430,7 +445,9 @@ body {
   margin-right: 2rem;
 }
 .footer__h1 {
-  font-family: GT Walsheim Pro Bold, sans-serif;
+  font-family:
+    GT Walsheim Pro Bold,
+    sans-serif;
   font-size: 3.6rem;
   line-height: 41px;
   color: var(--color-white);
@@ -572,7 +589,9 @@ body {
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .footer__h3 {
-  font-family: GT Walsheim Pro Bold, sans-serif;
+  font-family:
+    GT Walsheim Pro Bold,
+    sans-serif;
   font-size: 1.8rem;
   line-height: 136%;
   color: var(--color-white);
@@ -851,7 +870,9 @@ body {
     display: block;
     margin-right: 5rem;
     margin-top: 6rem;
-    font-family: GT Walsheim Pro Bold, sans-serif;
+    font-family:
+      GT Walsheim Pro Bold,
+      sans-serif;
     color: var(--color-white);
   }
   .mobile-nav .nav-item {
@@ -914,8 +935,11 @@ body {
 .nav-rocket-button:hover {
   background-color: transparent;
   filter: brightness(1.125);
-  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.09), 0 4px 2px rgba(0, 0, 0, 0.09),
-    0 8px 8px rgba(0, 0, 0, 0.06), 0 16px 18px rgba(65, 56, 56, 0.04),
+  box-shadow:
+    0 2px 1px rgba(0, 0, 0, 0.09),
+    0 4px 2px rgba(0, 0, 0, 0.09),
+    0 8px 8px rgba(0, 0, 0, 0.06),
+    0 16px 18px rgba(65, 56, 56, 0.04),
     0 32px 36px rgba(0, 0, 0, 0.02);
   transform: scale(1.05);
   background-position: 100%;
@@ -944,7 +968,9 @@ body {
   }
 }
 .section-faq__title {
-  font-family: GT Walsheim Pro Bold, sans-serif;
+  font-family:
+    GT Walsheim Pro Bold,
+    sans-serif;
   font-size: 6.4rem;
   line-height: 85px;
   color: var(--color-white);
@@ -1007,7 +1033,9 @@ body {
   }
 }
 .home-header__h1 {
-  font-family: GT Walsheim Pro Bold, sans-serif;
+  font-family:
+    GT Walsheim Pro Bold,
+    sans-serif;
   font-size: 6.4rem;
   line-height: 9rem;
   color: var(--color-white);
@@ -1099,9 +1127,7 @@ body {
 }
 .home-header__img {
   position: absolute;
-  height: 64rem;
   top: -8rem;
-  left: -30rem;
   z-index: 1;
 }
 @media only screen and (max-width: 80em) {
@@ -1149,7 +1175,9 @@ body {
   }
 }
 .home-header__h2 {
-  font-family: GT Walsheim Pro Bold, sans-serif;
+  font-family:
+    GT Walsheim Pro Bold,
+    sans-serif;
   font-size: 4.8rem;
   line-height: 5rem;
   color: var(--color-white);
@@ -1201,7 +1229,9 @@ body {
   margin-bottom: 4rem;
 }
 .section-why__h2 {
-  font-family: GT Walsheim Pro Bold, sans-serif;
+  font-family:
+    GT Walsheim Pro Bold,
+    sans-serif;
   font-size: 2.4rem;
   line-height: 2.7rem;
   color: var(--color-white);
@@ -1276,9 +1306,8 @@ body {
   }
 }
 .section-features__box--left img {
-  width: 55%;
   position: relative;
-  left: 22%;
+  left: 0;
 }
 @media only screen and (max-width: 62.5em) {
   .section-features__box--left img {
@@ -1325,7 +1354,9 @@ body {
   }
 }
 .section-features__h1 {
-  font-family: GT Walsheim Pro Bold, sans-serif;
+  font-family:
+    GT Walsheim Pro Bold,
+    sans-serif;
   font-size: 4.8rem;
   line-height: 6.5rem;
   color: var(--color-white);
@@ -1376,7 +1407,9 @@ body {
   }
 }
 .section-testimonials__h1 {
-  font-family: GT Walsheim Pro Bold, sans-serif;
+  font-family:
+    GT Walsheim Pro Bold,
+    sans-serif;
   font-size: 6.4rem;
   line-height: 7.3rem;
   text-align: center;
@@ -1541,7 +1574,9 @@ body {
   }
 }
 .section-privacy__title {
-  font-family: GT Walsheim Pro Bold, sans-serif;
+  font-family:
+    GT Walsheim Pro Bold,
+    sans-serif;
   font-size: 6rem;
   line-height: 8rem;
   color: var(--color-white);
@@ -1577,7 +1612,9 @@ body {
 }
 .section-privacy__content h1,
 .section-privacy__content h2 {
-  font-family: GT Walsheim Pro Bold, sans-serif;
+  font-family:
+    GT Walsheim Pro Bold,
+    sans-serif;
   line-height: 3rem;
   color: var(--color-white);
 }
@@ -1601,7 +1638,9 @@ body {
   }
 }
 .section-terms__title {
-  font-family: GT Walsheim Pro Bold, sans-serif;
+  font-family:
+    GT Walsheim Pro Bold,
+    sans-serif;
   font-size: 6rem;
   line-height: 8rem;
   color: var(--color-white);
@@ -1637,7 +1676,9 @@ body {
 }
 .section-terms__content h1,
 .section-terms__content h2 {
-  font-family: GT Walsheim Pro Bold, sans-serif;
+  font-family:
+    GT Walsheim Pro Bold,
+    sans-serif;
   line-height: 3rem;
   color: var(--color-white);
 }

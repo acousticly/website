@@ -1,37 +1,24 @@
-function animateResultCount(number, target, elem) {
+function animateResultCount(number, target, elem, fast) {
   number = parseInt(number)
   if (number < target) {
-    var interval = setInterval(function () {
-      let element = document.querySelector(elem)
-      if (element) {
-        document.querySelector(elem).innerHTML = number
-      }
+    var interval = setInterval(
+      function () {
+        let element = document.querySelector(elem)
+        if (element) {
+          document.querySelector(elem).innerHTML = number
+        }
 
-      if (number >= target) {
-        clearInterval(interval)
-        return
-      }
-      number++
-    }, 70)
+        if (number >= target) {
+          clearInterval(interval)
+          return
+        }
+        number++
+      },
+      fast ? 7 : 70
+    )
   }
 }
-function animateResultCountFast(number, target, elem) {
-  number = parseInt(number)
-  if (number < target) {
-    var interval = setInterval(function () {
-      let element = document.querySelector(elem)
-      if (element) {
-        document.querySelector(elem).innerHTML = number
-      }
 
-      if (number >= target) {
-        clearInterval(interval)
-        return
-      }
-      number++
-    }, 16)
-  }
-}
 export const IndexScript = () => {
   setTimeout(function () {
     let number1 = document.querySelector('#number1')
@@ -39,15 +26,17 @@ export const IndexScript = () => {
     let number3 = document.querySelector('#number3')
     let number4 = document.querySelector('#number4')
     if (number1 && number2 && number3 && number4) {
-      animateResultCountFast(
+      animateResultCount(
         document.querySelector('#number1').textContent,
-        581,
-        '#number1'
+        786,
+        '#number1',
+        true
       )
-      animateResultCountFast(
+      animateResultCount(
         document.querySelector('#number2').textContent,
-        239,
-        '#number2'
+        1311,
+        '#number2',
+        true
       )
       animateResultCount(
         document.querySelector('#number3').textContent,

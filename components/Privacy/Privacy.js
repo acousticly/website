@@ -73,11 +73,9 @@ const Privacy = () => {
           experience by customizing our web page content based on visitors&apos;
           browser type and/or other information. For more general information on
           cookies, please read{' '}
-          <a>
-            <Link href="https://www.allaboutcookies.org">
-              &quot;What Are Cookies&quot; from All About Cookies.org
-            </Link>
-          </a>
+          <Link href="https://www.allaboutcookies.org">
+            &quot;What Are Cookies&quot; from All About Cookies.org
+          </Link>
         </p>
         <h2>Third Party Privacy Policies</h2>
         <p>
