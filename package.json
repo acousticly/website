@@ -23,7 +23,7 @@
     "webpack": "^5.88.1"
   },
   "devDependencies": {
-    "critters": "^0.0.19",
+    "critters": "^0.0.20",
     "eslint": "8.45.0",
     "eslint-config-next": "13.4.10",
     "prettier": "3.0.0"
